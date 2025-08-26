@@ -16,6 +16,13 @@ Connect to postgres
 
 	psql -Upostgres
 
+## My bash config
+
+	eval "$(starship init bash)"
+
+	# Secrets
+	[ -f ~/.secrets ] && source ~/.secrets
+
 ## Backup Homebrew file
  
 Backup the Brewfil
