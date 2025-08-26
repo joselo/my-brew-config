@@ -1,0 +1,10 @@
+brew "gcc"
+brew "caddy"
+brew "erlang"
+brew "elixir"
+brew "inotify-tools"
+brew "postgresql@14", restart_service: :changed
+brew "starship"
+brew "watchman"
+cask "font-0xproto-nerd-font"
+cask "font-jetbrains-mono-nerd-font"
